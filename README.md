@@ -29,4 +29,14 @@ Open in terminal and type the following command
 	python3 -m igpd
 ```
 
+## Tips
 
+How to find the post id?
+
+In order to download a single post, or carousel or video, we need to get its ID first. To find a post’s ID, we just have to look at the URL of said post.
+
+
+[<img height="100" src="https://martechwithme.com/wp-content/uploads/2020/03/id_post_instagram.png" />]
+
+
+The highlighted part in this screenshot is the ID we want to copy.
