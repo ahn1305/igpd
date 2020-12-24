@@ -23,10 +23,10 @@ pip install igpd
 
 ## Usage
 
-```python
-from igpd import * # importing
+Open in terminal and type the following command
 
-activate() # call the function
+```python
+	python3 -m igpd
 ```
 
 
