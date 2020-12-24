@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup_args = dict(
     name="igpd", # Replace with your own username
-    version="0.0.2",
+    version="0.0.1",
     author='Ashwin.B',
     license='MIT',
     author_email = 'ahnashwin1305@gmail.com',
@@ -30,7 +30,6 @@ setup_args = dict(
 install_requires = [
 	'instaloader==4.5.5',
 	'printtools==1.2',
-	'os',
 ]
 
 if __name__ == '__main__':
