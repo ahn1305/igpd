@@ -5,10 +5,11 @@ with open("README.md", "r") as fh:
 
 setup_args = dict(
     name="igpd", # Replace with your own username
-    version="0.0.1",
+    version="0.0.2",
     author='Ashwin.B',
     license='MIT',
     author_email = 'ahnashwin1305@gmail.com',
+    url = 'https://github.com/ahn1305/igpd',
     description="This package is made to improve my coding skills",
     long_description = long_description,
     long_description_content_type= "text/markdown",
