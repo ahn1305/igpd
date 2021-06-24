@@ -26,7 +26,7 @@ pip install igpd
 Open in terminal and type the following command
 
 ```python
-	python3 -m igpd
+python3 -m igpd
 ```
 
 ## Tips
