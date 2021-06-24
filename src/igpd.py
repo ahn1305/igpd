@@ -6,6 +6,7 @@ from instaloader import Profile, Post
 
 from print import *
 
+import getpass
 
 
 
@@ -43,7 +44,7 @@ def downloadpost():
 	print('\nLOGIN')
 
 	name = input("\nEnter username: ")
-	passwo = input("Enter password: ")
+	passwo = getpass.getpass("Enter password: ")
 
 	instance = instaloader.Instaloader()
 
@@ -70,7 +71,7 @@ def downloadstory():
 	print('\nLOGIN')
 
 	name = input("\nEnter username: ")
-	passwo = input("Enter password: ")
+	passwo = getpass.getpass("Enter password: ")
 
 	instance = instaloader.Instaloader()
 
@@ -99,7 +100,7 @@ def downloadhighlights():
 	print('\nLOGIN')
 
 	name = input("\nEnter username: ")
-	passwo = input("Enter password: ")
+	passwo = getpass.getpass("Enter password: ")
 
 	instance = instaloader.Instaloader()
 
@@ -132,7 +133,7 @@ def downloadprofile():
 	print('\nLOGIN')
 
 	name = input("\nEnter username: ")
-	passwo = input("Enter password: ")
+	passwo = getpass.getpass("Enter password: ")
 
 	instance = instaloader.Instaloader()
 
